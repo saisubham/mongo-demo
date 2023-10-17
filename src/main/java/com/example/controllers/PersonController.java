@@ -1,5 +1,7 @@
-package com.example.mongodemo;
+package com.example.controllers;
 
+import com.example.models.Person;
+import com.example.repos.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
